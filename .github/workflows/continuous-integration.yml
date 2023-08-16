@@ -7,7 +7,7 @@ on:
 
 jobs:
 	#eslint configuration CI runs-on, steps
-	 test:
+	test:
     runs-on: ubuntu-latest
     container: cypress/browsers:node18.12.0-chrome107
     steps:
