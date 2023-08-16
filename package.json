@@ -37,6 +37,7 @@
     "start-server-and-test": "^2.0.0"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.32.0",
     "eslint-plugin-cypress": "^2.14.0",
     "next": "^13.4.12",
     "react": "^18.2.0",
