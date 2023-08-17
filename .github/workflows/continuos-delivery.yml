@@ -9,8 +9,9 @@ on:
     branches: [main]
 
 env:
-  VERCEL_ORG_ID: nvquWHxA3eADFldS6IK8tX7W
-  VERCEL_PROJECT_ID: prj_63AYbMLPiYGiYreBLPVr4mos1mKu
+	VERCEL_TOKEN: E0vjXm3Lz12z1H6B00UOIKE6"
+  VERCEL_ORG_ID: oVS8rFpGtngq0AL0ZTvYv7V2
+  VERCEL_PROJECT_ID: prj_OHEmC5lkDKsNWpRQQO2nOYF9Y2bl
 
 jobs:
   deploy:
@@ -25,4 +26,4 @@ jobs:
       - name: "Install Dependencies"
         run: "npm install"
       - name: "Deploy"
-        run: "npx vercel --prod --token=E0vjXm3Lz12z1H6B00UOIKE6"
+        run: "npx vercel --prod
